@@ -1,0 +1,8 @@
+framework module "Demo" {
+	header "ref.h"
+    header "Demo.objc.h"
+    header "Universe.objc.h"
+    header "Demo.h"
+
+    export *
+}
